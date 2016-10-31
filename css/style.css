@@ -1,0 +1,97 @@
+/**初始化**/
+body,div,span,ul,li,p,dl,dt,dd,input,select,option,i,em{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{ border:0 none; vertical-align:top;}
+input,button,textarea,div{ cursor: pointer; -webkit-appearance: none; }/*去除苹果默认的渐变色*/
+html{ font-size: 625%;width:100%; height:100%; }
+h3 { margin-left: 0.2rem;display: block;width: 1rem; height: 0.32rem;background: crimson;border-radius: 0.06rem;text-align: center;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; visibility:hidden; clear:both;}
+body{width:100%; height:100%;background: url(../img/2.jpg); max-width: 640px; min-width: 320px; margin: 0 auto; font-size: 0.18rem;font-family: "微软雅黑"; color: #fff;}
+.swiper-container{ width:100%; height:100%;}
+/**封面**/
+.first {width: 100%;text-align: center;}
+.first span{ display:block;font-size: 0.24rem;font-weight: bold;margin-bottom: 0.16rem;}
+/**申请岗位以及个人信息**/
+.personalmessage{width:100%; margin: 0 auto;}
+.line{width: 4.5rem; height:0.54rem;margin: 0 auto;}
+.line i{margin-left:0.36rem ;margin-top: 0.22rem; float: left; display:block;width: 0.1rem; height: 0.1rem;background:url(../img/5_02.png) ;}
+.line span{float: left; display:block;line-height: 0.54rem;margin-left:0.08rem ;}
+/**教育背景与工作经历**/
+.background{width: 100%;}
+.experienceTime{float:left;width: 1.1rem;height: 2.98rem;font-size: 0.16rem;margin-left:0.35rem ;}
+.experienceTime li{margin-bottom: 0.3rem;}
+.experienceevent{float:left;width:2.1rem ;font-size: 0.14rem;margin-left: 0.05rem;}
+.experienceevent span{display:block;float: left;width:2.2rem ;height: 0.55rem;}
+
+
+
+/**技能掌握**/
+.learnning{width: 100%;margin-left: 0.3rem}
+.learnning span{ display:block; margin: 0 auto;float: left;font-size: 0.16rem;}
+.learnning i{display: inline-block; background:url(../img/3.jpg) ;width: 2.5rem; height:0.25rem;float: left;border:1px #fff solid;
+border-radius: 0.05rem; margin-left: 0.4rem;}
+
+
+.learnning-item{width: 100%; height: 0.5rem;}
+/*项目经历*/
+
+.projectshow span{font-size: 0.15rem;}
+
+.projectshow img{display: block;float: left;margin-left: 0.3rem;}
+
+.projectshowcon{height: 100%;float: left;margin-bottom: 0.35rem;}
+.projectshowtit{display: block;float: left;margin-left: 0.2rem;}
+.procon{height: 0.3rem;float: left;}
+
+.projectshowc{display: block;float: left;}
+
+/**在校获奖经历**/
+.prizexperience{width: 100%;}
+.prizexperience div{ height: 0.5rem;width: 3.8rem; margin-bottom:20px ;}
+.prizexperience span{display: block;float: left;margin-left:0.3rem ;}
+.prizexperience p{margin-left: 0.25rem;margin-bottom: 0.03rem;text-align: left;}
+@keyframes shq{
+	from{width: 0;}
+	to{width: 2.5rem;}
+}
+
+@keyframes shqb{
+	from{width: 0;}
+	to{width: 1.25rem;}
+}
+@keyframes shqc{
+	from{width: 0;}
+	to{width: 2rem;}
+}
+@keyframes shqd{
+	from{width: 0;}
+	to{width: 0.7rem;}
+}
+.aaaaa{
+	animation: shq 6s linear;
+}
+.bbb{
+	animation: shqb 6s linear;
+}
+.ccc{
+	animation: shqc 6s linear;
+}
+.ddd{
+	animation: shqd 6s linear;
+}
+
+
+/*联系方式*/
+.contect div{height: 0.34rem;}
+.contect span{display: block;float: left;margin:0 0.2rem 0.1rem 0.3rem; }
+.contect p{float: right;margin-right: 50px;}
+
+.contect img{ display: block;float: left;margin:0.2rem 0 0  0.65rem;}
+
+.sao{margin-right: 100px; margin-top: 10px;}
+
+
+
+
